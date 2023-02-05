@@ -1,0 +1,18 @@
+/* Descendant Combinator , here we used two class where text is a descendant 
+of container , but we could also have used a type + class selector ie. 
+div container.{} */
+
+/* Below are some other possible descendant combinators:
+
+div p
+div .text
+.container p
+
+*/
+
+.container .text{
+    background-color: rgb(255, 255, 0);
+    color: #ff1a00;
+    text-align: center;
+    font-size: 20px;
+}
